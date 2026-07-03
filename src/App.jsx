@@ -3,7 +3,7 @@ import Grainient from './Grainient.jsx';
 import MobileMenu from "./MobileMenu";
 import { useLanguage } from "./lan/LanguageContext.jsx";
 import { useTranslation } from "./lan/useTranslation.js";
-const asset = (name) => new URL(`assets/${name}`, import.meta.env.BASE_URL).href;
+const asset = (name) => `${import.meta.env.BASE_URL}assets/${name}`;
 
 const projects = [
   {
