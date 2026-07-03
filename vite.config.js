@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     svgr(),
   ],
-    base: "/portfoliov2/",
+    base: "/portfolioV2/",
 });
