@@ -2,7 +2,9 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/sen": "^5.2.8",
@@ -13,6 +15,7 @@
     "vite": "^7.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite-plugin-svgr": "^5.2.0"
   }
 }
