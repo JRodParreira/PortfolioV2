@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "./lan/useTranslation";
 
-const asset = (name) => `/assets/${name}`;
+const asset = (name) => `${import.meta.env.BASE_URL}assets/${name}`;
 
 export default function MobileMenu({
   menuOpen,
@@ -51,7 +51,7 @@ export default function MobileMenu({
             {t.nav.projects}
           </a>
 
-          <a href="#services" onClick={closeMenu}>
+          <a href="#services-mobile" onClick={closeMenu}>
             {t.nav.services}
           </a>
 

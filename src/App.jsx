@@ -634,7 +634,7 @@ function Services() {
   
   return (
     <section className="section section-dark services-section" id="services" aria-labelledby="services-title">
-      <div className="services-grid">
+      <div className="services-grid" >
       <SectionLabel className="service-title" title={t.services.title} id="services-title" />
       <div className="services-content">
         <p className="eyebrow">{t.services.eyebrow}</p>
@@ -696,7 +696,7 @@ function MobileServices(){
 
     return(
 
-        <section className="mobile-services">
+        <section className="mobile-services" id="services-mobile">
 
             <div className="mobile-services-header">
 

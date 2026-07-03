@@ -185,7 +185,7 @@ export const translations = {
     hero: {
       title: "O seu negócio merece mais do que um website baseado num template.",
       subtitle:
-        "Transformo processos confusos em interfaces claras. Uno design e desenvolvimento frontend.",
+        "Transformo processos confusos em interfaces claras.",
     },
 
     projects: {
